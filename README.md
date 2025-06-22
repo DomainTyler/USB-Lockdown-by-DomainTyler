@@ -25,3 +25,48 @@ A lightweight Windows batch script to **enable or disable USB storage devices** 
 
 The script modifies the registry key:
 
+
+Setting the value of `Start` to:
+- `4` disables USB storage.
+- `3` enables USB storage.
+
+---
+
+## Example
+===========================================
+USB Lockdown by DomainTyler
+[1] Disable USB Storage (Lock USB ports)
+[2] Enable USB Storage (Unlock USB ports)
+[3] Exit
+
+---
+
+## Requirements
+
+- Windows OS (Vista and later).
+- **Administrator privileges** are required to modify registry settings.
+
+---
+
+## Warning
+
+- This tool **only affects USB storage devices**, not peripherals like keyboards or mice.
+- Make sure you understand the changes being made to the registry.
+- Restart may be required on some systems for the change to take effect.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+## Author
+
+**DomainTyler**
+
+Pull requests, suggestions, and improvements are welcome!
+
+---
+
